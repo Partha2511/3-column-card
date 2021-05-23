@@ -1,0 +1,77 @@
+body{
+  text-align: center;
+  font-size: 15px;
+  padding:5% 10% 2%;
+  display: inline-block;
+  border-radius: 10px;
+}
+h1{
+  color: #fff;
+  color:hsl(0, 0%, 95%);
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+p{
+  color: #fff;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: Lexend Deca;
+  font-weight: 400;
+  line-height: 2;
+  padding-bottom: 80px;
+}
+.sedan{
+  background-color: #fff;/* #E38826 */
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+.sedan .buttons{
+  color: #fff;
+  color:hsl(31, 77%, 52%);
+}
+.suv{
+  background-color: #fff;/* #00646B */
+  background-color: hsl(184, 100%, 22%);
+}
+.suv .buttons{
+  color:#fff;
+  color:hsl(184, 100%, 22%);
+}
+.luxury{
+background-color: #fff; /*#003333  */
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
+.luxury .buttons{
+  color:#fff;
+  color:hsl(179, 100%, 13%);
+}
+.buttons{
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: none;
+}
+.space{
+  padding-bottom: 40px;
+}
+.row{
+  padding-bottom: 2%;
+
+
+}
+
+div{
+  margin: 0;
+  text-align: left;
+}
+@media (max-width:375px){
+  #details{
+    border-radius: 10px;
+  }
+}
+.image{
+  padding:50px 0;
+}
+.col-lg-4.column {
+    padding:0 40px;
+}
